@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "DJTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    DJTabBarController *tabBarVC = [[DJTabBarController alloc] init];
+    
+    self.window.rootViewController = tabBarVC;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

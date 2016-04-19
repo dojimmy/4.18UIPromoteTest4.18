@@ -9,12 +9,31 @@
 /* Begin PBXBuildFile section */
 		BFDE16B51CC46F0B00F7E470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE16B41CC46F0B00F7E470 /* main.m */; };
 		BFDE16B81CC46F0B00F7E470 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE16B71CC46F0B00F7E470 /* AppDelegate.m */; };
-		BFDE16BB1CC46F0B00F7E470 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE16BA1CC46F0B00F7E470 /* ViewController.m */; };
-		BFDE16BE1CC46F0B00F7E470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDE16BC1CC46F0B00F7E470 /* Main.storyboard */; };
 		BFDE16C01CC46F0B00F7E470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFDE16BF1CC46F0B00F7E470 /* Assets.xcassets */; };
-		BFDE16C31CC46F0B00F7E470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDE16C11CC46F0B00F7E470 /* LaunchScreen.storyboard */; };
 		BFDE16CE1CC46F0B00F7E470 /* __18UI____4_18Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE16CD1CC46F0B00F7E470 /* __18UI____4_18Tests.m */; };
 		BFDE16D91CC46F0B00F7E470 /* __18UI____4_18UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE16D81CC46F0B00F7E470 /* __18UI____4_18UITests.m */; };
+		BFDE17001CC4720800F7E470 /* DJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE16FF1CC4720800F7E470 /* DJTabBarController.m */; };
+		BFDE17031CC4722D00F7E470 /* DJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE17021CC4722D00F7E470 /* DJNavigationController.m */; };
+		BFDE17061CC4725500F7E470 /* DJHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE17051CC4725500F7E470 /* DJHallViewController.m */; };
+		BFDE17211CC473D100F7E470 /* Hall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDE17201CC473D100F7E470 /* Hall.storyboard */; };
+		BFDE17231CC4741400F7E470 /* Buy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDE17221CC4741400F7E470 /* Buy.storyboard */; };
+		BFDE17251CC4742800F7E470 /* Lucky.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDE17241CC4742800F7E470 /* Lucky.storyboard */; };
+		BFDE17271CC4743500F7E470 /* History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDE17261CC4743500F7E470 /* History.storyboard */; };
+		BFDE17291CC4743E00F7E470 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFDE17281CC4743E00F7E470 /* Mine.storyboard */; };
+		BFDE172D1CC47D7C00F7E470 /* DJMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE172B1CC47D7C00F7E470 /* DJMenuCell.m */; };
+		BFDE172E1CC47D7C00F7E470 /* DJMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFDE172C1CC47D7C00F7E470 /* DJMenuCell.xib */; };
+		BFDE17311CC4839800F7E470 /* DJMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE17301CC4839800F7E470 /* DJMenu.m */; };
+		BFDE17371CC4851F00F7E470 /* MyAccount.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFDE17361CC4851F00F7E470 /* MyAccount.plist */; };
+		BFDE173A1CC499C400F7E470 /* DJMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE17391CC499C400F7E470 /* DJMenuViewController.m */; };
+		BFDE173D1CC4A37900F7E470 /* DJHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE173C1CC4A37900F7E470 /* DJHeaderView.m */; };
+		BFDE17401CC4B21600F7E470 /* DJHeaderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE173F1CC4B21600F7E470 /* DJHeaderButton.m */; };
+		BFDE17431CC4D30500F7E470 /* DJSubMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE17421CC4D30500F7E470 /* DJSubMenuCell.m */; };
+		BFDE17461CC6196F00F7E470 /* DJSubMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE17451CC6196F00F7E470 /* DJSubMenu.m */; };
+		BFDE174A1CC624C000F7E470 /* DJSaveData.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE17491CC624C000F7E470 /* DJSaveData.m */; };
+		BFDE17551CC658CA00F7E470 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE174E1CC658CA00F7E470 /* SVIndefiniteAnimatedView.m */; };
+		BFDE17561CC658CA00F7E470 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFDE17501CC658CA00F7E470 /* SVProgressHUD.bundle */; };
+		BFDE17571CC658CA00F7E470 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE17521CC658CA00F7E470 /* SVProgressHUD.m */; };
+		BFDE17581CC658CA00F7E470 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFDE17541CC658CA00F7E470 /* SVRadialGradientLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +58,7 @@
 		BFDE16B41CC46F0B00F7E470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFDE16B61CC46F0B00F7E470 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFDE16B71CC46F0B00F7E470 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BFDE16B91CC46F0B00F7E470 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BFDE16BA1CC46F0B00F7E470 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BFDE16BD1CC46F0B00F7E470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFDE16BF1CC46F0B00F7E470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFDE16C21CC46F0B00F7E470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFDE16C41CC46F0B00F7E470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFDE16C91CC46F0B00F7E470 /* 4.18UI进阶测试4.18Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4.18UI进阶测试4.18Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDE16CD1CC46F0B00F7E470 /* __18UI____4_18Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__18UI____4_18Tests.m"; sourceTree = "<group>"; };
@@ -51,6 +66,44 @@
 		BFDE16D41CC46F0B00F7E470 /* 4.18UI进阶测试4.18UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "4.18UI进阶测试4.18UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDE16D81CC46F0B00F7E470 /* __18UI____4_18UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__18UI____4_18UITests.m"; sourceTree = "<group>"; };
 		BFDE16DA1CC46F0B00F7E470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFDE16FE1CC4720800F7E470 /* DJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJTabBarController.h; sourceTree = "<group>"; };
+		BFDE16FF1CC4720800F7E470 /* DJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJTabBarController.m; sourceTree = "<group>"; };
+		BFDE17011CC4722D00F7E470 /* DJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJNavigationController.h; sourceTree = "<group>"; };
+		BFDE17021CC4722D00F7E470 /* DJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJNavigationController.m; sourceTree = "<group>"; };
+		BFDE17041CC4725500F7E470 /* DJHallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJHallViewController.h; sourceTree = "<group>"; };
+		BFDE17051CC4725500F7E470 /* DJHallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHallViewController.m; sourceTree = "<group>"; };
+		BFDE17201CC473D100F7E470 /* Hall.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Hall.storyboard; sourceTree = "<group>"; };
+		BFDE17221CC4741400F7E470 /* Buy.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Buy.storyboard; sourceTree = "<group>"; };
+		BFDE17241CC4742800F7E470 /* Lucky.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Lucky.storyboard; sourceTree = "<group>"; };
+		BFDE17261CC4743500F7E470 /* History.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = History.storyboard; sourceTree = "<group>"; };
+		BFDE17281CC4743E00F7E470 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		BFDE172A1CC47D7C00F7E470 /* DJMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJMenuCell.h; sourceTree = "<group>"; };
+		BFDE172B1CC47D7C00F7E470 /* DJMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJMenuCell.m; sourceTree = "<group>"; };
+		BFDE172C1CC47D7C00F7E470 /* DJMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DJMenuCell.xib; sourceTree = "<group>"; };
+		BFDE172F1CC4839800F7E470 /* DJMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJMenu.h; sourceTree = "<group>"; };
+		BFDE17301CC4839800F7E470 /* DJMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJMenu.m; sourceTree = "<group>"; };
+		BFDE17361CC4851F00F7E470 /* MyAccount.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MyAccount.plist; sourceTree = "<group>"; };
+		BFDE17381CC499C400F7E470 /* DJMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJMenuViewController.h; sourceTree = "<group>"; };
+		BFDE17391CC499C400F7E470 /* DJMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJMenuViewController.m; sourceTree = "<group>"; };
+		BFDE173B1CC4A37900F7E470 /* DJHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJHeaderView.h; sourceTree = "<group>"; };
+		BFDE173C1CC4A37900F7E470 /* DJHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHeaderView.m; sourceTree = "<group>"; };
+		BFDE173E1CC4B21600F7E470 /* DJHeaderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJHeaderButton.h; sourceTree = "<group>"; };
+		BFDE173F1CC4B21600F7E470 /* DJHeaderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJHeaderButton.m; sourceTree = "<group>"; };
+		BFDE17411CC4D30500F7E470 /* DJSubMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJSubMenuCell.h; sourceTree = "<group>"; };
+		BFDE17421CC4D30500F7E470 /* DJSubMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJSubMenuCell.m; sourceTree = "<group>"; };
+		BFDE17441CC6196F00F7E470 /* DJSubMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJSubMenu.h; sourceTree = "<group>"; };
+		BFDE17451CC6196F00F7E470 /* DJSubMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJSubMenu.m; sourceTree = "<group>"; };
+		BFDE17481CC624C000F7E470 /* DJSaveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJSaveData.h; sourceTree = "<group>"; };
+		BFDE17491CC624C000F7E470 /* DJSaveData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJSaveData.m; sourceTree = "<group>"; };
+		BFDE174B1CC626B700F7E470 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BFDE174D1CC658CA00F7E470 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		BFDE174E1CC658CA00F7E470 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		BFDE174F1CC658CA00F7E470 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		BFDE17501CC658CA00F7E470 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		BFDE17511CC658CA00F7E470 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		BFDE17521CC658CA00F7E470 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		BFDE17531CC658CA00F7E470 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		BFDE17541CC658CA00F7E470 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +154,9 @@
 		BFDE16B21CC46F0B00F7E470 /* 4.18UI进阶测试4.18 */ = {
 			isa = PBXGroup;
 			children = (
+				BFDE16E61CC4707800F7E470 /* Classes */,
 				BFDE16B61CC46F0B00F7E470 /* AppDelegate.h */,
 				BFDE16B71CC46F0B00F7E470 /* AppDelegate.m */,
-				BFDE16B91CC46F0B00F7E470 /* ViewController.h */,
-				BFDE16BA1CC46F0B00F7E470 /* ViewController.m */,
-				BFDE16BC1CC46F0B00F7E470 /* Main.storyboard */,
-				BFDE16BF1CC46F0B00F7E470 /* Assets.xcassets */,
-				BFDE16C11CC46F0B00F7E470 /* LaunchScreen.storyboard */,
-				BFDE16C41CC46F0B00F7E470 /* Info.plist */,
 				BFDE16B31CC46F0B00F7E470 /* Supporting Files */,
 			);
 			path = "4.18UI进阶测试4.18";
@@ -117,7 +165,11 @@
 		BFDE16B31CC46F0B00F7E470 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BFDE17361CC4851F00F7E470 /* MyAccount.plist */,
+				BFDE16BF1CC46F0B00F7E470 /* Assets.xcassets */,
+				BFDE16C41CC46F0B00F7E470 /* Info.plist */,
 				BFDE16B41CC46F0B00F7E470 /* main.m */,
+				BFDE174B1CC626B700F7E470 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +190,305 @@
 				BFDE16DA1CC46F0B00F7E470 /* Info.plist */,
 			);
 			path = "4.18UI进阶测试4.18UITests";
+			sourceTree = "<group>";
+		};
+		BFDE16E61CC4707800F7E470 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE16F41CC4707800F7E470 /* Main */,
+				BFDE16ED1CC4707800F7E470 /* Hall */,
+				BFDE16E71CC4707800F7E470 /* Buy */,
+				BFDE16F31CC4707800F7E470 /* Lucky */,
+				BFDE16F21CC4707800F7E470 /* History */,
+				BFDE16F91CC4707800F7E470 /* Mine */,
+				BFDE17471CC624A900F7E470 /* Lib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BFDE16E71CC4707800F7E470 /* Buy */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE17111CC4736300F7E470 /* Controllers */,
+				BFDE17141CC4736300F7E470 /* Models */,
+				BFDE17151CC4736300F7E470 /* Others */,
+				BFDE17161CC4736300F7E470 /* Views */,
+			);
+			path = Buy;
+			sourceTree = "<group>";
+		};
+		BFDE16ED1CC4707800F7E470 /* Hall */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE16EE1CC4707800F7E470 /* Controllers */,
+				BFDE16EF1CC4707800F7E470 /* Models */,
+				BFDE16F01CC4707800F7E470 /* Others */,
+				BFDE16F11CC4707800F7E470 /* Views */,
+			);
+			path = Hall;
+			sourceTree = "<group>";
+		};
+		BFDE16EE1CC4707800F7E470 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE17041CC4725500F7E470 /* DJHallViewController.h */,
+				BFDE17051CC4725500F7E470 /* DJHallViewController.m */,
+				BFDE17381CC499C400F7E470 /* DJMenuViewController.h */,
+				BFDE17391CC499C400F7E470 /* DJMenuViewController.m */,
+				BFDE17201CC473D100F7E470 /* Hall.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BFDE16EF1CC4707800F7E470 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE172F1CC4839800F7E470 /* DJMenu.h */,
+				BFDE17301CC4839800F7E470 /* DJMenu.m */,
+				BFDE17441CC6196F00F7E470 /* DJSubMenu.h */,
+				BFDE17451CC6196F00F7E470 /* DJSubMenu.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFDE16F01CC4707800F7E470 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BFDE16F11CC4707800F7E470 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE17411CC4D30500F7E470 /* DJSubMenuCell.h */,
+				BFDE17421CC4D30500F7E470 /* DJSubMenuCell.m */,
+				BFDE173E1CC4B21600F7E470 /* DJHeaderButton.h */,
+				BFDE173F1CC4B21600F7E470 /* DJHeaderButton.m */,
+				BFDE173B1CC4A37900F7E470 /* DJHeaderView.h */,
+				BFDE173C1CC4A37900F7E470 /* DJHeaderView.m */,
+				BFDE172A1CC47D7C00F7E470 /* DJMenuCell.h */,
+				BFDE172B1CC47D7C00F7E470 /* DJMenuCell.m */,
+				BFDE172C1CC47D7C00F7E470 /* DJMenuCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFDE16F21CC4707800F7E470 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE171C1CC473A700F7E470 /* Controllers */,
+				BFDE171D1CC473A700F7E470 /* Models */,
+				BFDE171E1CC473A700F7E470 /* Others */,
+				BFDE171F1CC473A700F7E470 /* Views */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		BFDE16F31CC4707800F7E470 /* Lucky */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE17181CC4739800F7E470 /* Controllers */,
+				BFDE17191CC4739800F7E470 /* Models */,
+				BFDE171A1CC4739800F7E470 /* Others */,
+				BFDE171B1CC4739800F7E470 /* Views */,
+			);
+			path = Lucky;
+			sourceTree = "<group>";
+		};
+		BFDE16F41CC4707800F7E470 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE16F51CC4707800F7E470 /* Controllers */,
+				BFDE16F61CC4707800F7E470 /* Models */,
+				BFDE16F71CC4707800F7E470 /* Others */,
+				BFDE16F81CC4707800F7E470 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BFDE16F51CC4707800F7E470 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE16FE1CC4720800F7E470 /* DJTabBarController.h */,
+				BFDE16FF1CC4720800F7E470 /* DJTabBarController.m */,
+				BFDE17011CC4722D00F7E470 /* DJNavigationController.h */,
+				BFDE17021CC4722D00F7E470 /* DJNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BFDE16F61CC4707800F7E470 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFDE16F71CC4707800F7E470 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BFDE16F81CC4707800F7E470 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFDE16F91CC4707800F7E470 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE16FA1CC4707800F7E470 /* Controllers */,
+				BFDE16FB1CC4707800F7E470 /* Models */,
+				BFDE16FC1CC4707800F7E470 /* Others */,
+				BFDE16FD1CC4707800F7E470 /* Views */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		BFDE16FA1CC4707800F7E470 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE17281CC4743E00F7E470 /* Mine.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BFDE16FB1CC4707800F7E470 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFDE16FC1CC4707800F7E470 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BFDE16FD1CC4707800F7E470 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFDE17111CC4736300F7E470 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE17221CC4741400F7E470 /* Buy.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BFDE17141CC4736300F7E470 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFDE17151CC4736300F7E470 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BFDE17161CC4736300F7E470 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFDE17181CC4739800F7E470 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE17241CC4742800F7E470 /* Lucky.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BFDE17191CC4739800F7E470 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFDE171A1CC4739800F7E470 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BFDE171B1CC4739800F7E470 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFDE171C1CC473A700F7E470 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE17261CC4743500F7E470 /* History.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BFDE171D1CC473A700F7E470 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFDE171E1CC473A700F7E470 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BFDE171F1CC473A700F7E470 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFDE17471CC624A900F7E470 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE174C1CC658CA00F7E470 /* SVProgressHUD */,
+				BFDE17481CC624C000F7E470 /* DJSaveData.h */,
+				BFDE17491CC624C000F7E470 /* DJSaveData.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		BFDE174C1CC658CA00F7E470 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BFDE174D1CC658CA00F7E470 /* SVIndefiniteAnimatedView.h */,
+				BFDE174E1CC658CA00F7E470 /* SVIndefiniteAnimatedView.m */,
+				BFDE174F1CC658CA00F7E470 /* SVProgressHUD-Prefix.pch */,
+				BFDE17501CC658CA00F7E470 /* SVProgressHUD.bundle */,
+				BFDE17511CC658CA00F7E470 /* SVProgressHUD.h */,
+				BFDE17521CC658CA00F7E470 /* SVProgressHUD.m */,
+				BFDE17531CC658CA00F7E470 /* SVRadialGradientLayer.h */,
+				BFDE17541CC658CA00F7E470 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +553,7 @@
 		BFDE16A81CC46F0B00F7E470 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DJ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "邓金明";
 				TargetAttributes = {
@@ -243,9 +595,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFDE16C31CC46F0B00F7E470 /* LaunchScreen.storyboard in Resources */,
+				BFDE17231CC4741400F7E470 /* Buy.storyboard in Resources */,
+				BFDE17561CC658CA00F7E470 /* SVProgressHUD.bundle in Resources */,
+				BFDE172E1CC47D7C00F7E470 /* DJMenuCell.xib in Resources */,
 				BFDE16C01CC46F0B00F7E470 /* Assets.xcassets in Resources */,
-				BFDE16BE1CC46F0B00F7E470 /* Main.storyboard in Resources */,
+				BFDE17371CC4851F00F7E470 /* MyAccount.plist in Resources */,
+				BFDE17251CC4742800F7E470 /* Lucky.storyboard in Resources */,
+				BFDE17291CC4743E00F7E470 /* Mine.storyboard in Resources */,
+				BFDE17211CC473D100F7E470 /* Hall.storyboard in Resources */,
+				BFDE17271CC4743500F7E470 /* History.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +628,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFDE16BB1CC46F0B00F7E470 /* ViewController.m in Sources */,
+				BFDE173D1CC4A37900F7E470 /* DJHeaderView.m in Sources */,
+				BFDE17001CC4720800F7E470 /* DJTabBarController.m in Sources */,
+				BFDE17571CC658CA00F7E470 /* SVProgressHUD.m in Sources */,
+				BFDE17581CC658CA00F7E470 /* SVRadialGradientLayer.m in Sources */,
+				BFDE17031CC4722D00F7E470 /* DJNavigationController.m in Sources */,
+				BFDE172D1CC47D7C00F7E470 /* DJMenuCell.m in Sources */,
+				BFDE173A1CC499C400F7E470 /* DJMenuViewController.m in Sources */,
+				BFDE17551CC658CA00F7E470 /* SVIndefiniteAnimatedView.m in Sources */,
+				BFDE17311CC4839800F7E470 /* DJMenu.m in Sources */,
+				BFDE174A1CC624C000F7E470 /* DJSaveData.m in Sources */,
+				BFDE17061CC4725500F7E470 /* DJHallViewController.m in Sources */,
+				BFDE17431CC4D30500F7E470 /* DJSubMenuCell.m in Sources */,
 				BFDE16B81CC46F0B00F7E470 /* AppDelegate.m in Sources */,
+				BFDE17401CC4B21600F7E470 /* DJHeaderButton.m in Sources */,
 				BFDE16B51CC46F0B00F7E470 /* main.m in Sources */,
+				BFDE17461CC6196F00F7E470 /* DJSubMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +677,6 @@
 			targetProxy = BFDE16D51CC46F0B00F7E470 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BFDE16BC1CC46F0B00F7E470 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFDE16BD1CC46F0B00F7E470 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BFDE16C11CC46F0B00F7E470 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFDE16C21CC46F0B00F7E470 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BFDE16DB1CC46F0B00F7E470 /* Debug */ = {
@@ -411,7 +763,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/4.18UI进阶测试4.18/PrefixHeader.pch";
 				INFOPLIST_FILE = "4.18UI进阶测试4.18/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "djm.--18UI----4-18";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +777,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/4.18UI进阶测试4.18/PrefixHeader.pch";
 				INFOPLIST_FILE = "4.18UI进阶测试4.18/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "djm.--18UI----4-18";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +854,7 @@
 				BFDE16DF1CC46F0B00F7E470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFDE16E01CC46F0B00F7E470 /* Build configuration list for PBXNativeTarget "4.18UI进阶测试4.18Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +863,7 @@
 				BFDE16E21CC46F0B00F7E470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFDE16E31CC46F0B00F7E470 /* Build configuration list for PBXNativeTarget "4.18UI进阶测试4.18UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +872,7 @@
 				BFDE16E51CC46F0B00F7E470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
